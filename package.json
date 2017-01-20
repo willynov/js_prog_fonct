@@ -1,0 +1,23 @@
+{
+  "name": "js_prog_fonct",
+  "version": "1.0.0",
+  "description": "Le repo du cours de prog fonct en Js/ES6/node",
+  "main": "testunitaire.js",
+  "devDependencies": {
+    "chai":"3.5.0",
+    "mocha": "3.2.0"
+  },
+  "scripts": {
+    "test": "mocha testunitaire.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willynov/js_prog_fonct.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willynov/js_prog_fonct/issues"
+  },
+  "homepage": "https://github.com/willynov/js_prog_fonct#readme"
+}
