@@ -19,5 +19,11 @@ describe ('summarizeBasket', function() {
         expect(res.countArticles).to.be.equal(1);
         expect(res.countProducts).to.be.equal(1);
     });
-    //teeeeeeeeest
+    //pas terminer
+    it('2 même produits', function() {
+        var res = summerizeBasket({prices}, ['apple','apple','apple']);
+        expect(res.prices).to.be.equal(5);
+        expect(res.countArticles).to.be.equal(2);
+        expect(res.countProducts).to.be.equal(2);
+    });
 });
