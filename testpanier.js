@@ -19,4 +19,5 @@ describe ('summarizeBasket', function() {
         expect(res.countArticles).to.be.equal(1);
         expect(res.countProducts).to.be.equal(1);
     });
+    //teeeeeeeeest
 });
